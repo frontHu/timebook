@@ -1,0 +1,23 @@
+dependencies: \
+  /Users/front-h/workspace/ReactNative/timebook/node_modules/react-native/React/Modules/RCTDevSettings.mm \
+  /Users/front-h/workspace/ReactNative/timebook/node_modules/react-native/React/Modules/RCTDevSettings.h \
+  /Users/front-h/workspace/ReactNative/timebook/node_modules/react-native/React/Base/RCTBridge.h \
+  /Users/front-h/workspace/ReactNative/timebook/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
+  /Users/front-h/workspace/ReactNative/timebook/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
+  /Users/front-h/workspace/ReactNative/timebook/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/front-h/workspace/ReactNative/timebook/node_modules/react-native/React/Base/RCTBridgeModule.h \
+  /Users/front-h/workspace/ReactNative/timebook/node_modules/react-native/React/Base/RCTFrameUpdate.h \
+  /Users/front-h/workspace/ReactNative/timebook/node_modules/react-native/React/Base/RCTInvalidating.h \
+  /Users/front-h/workspace/ReactNative/timebook/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JavaScriptCore.h \
+  /Users/front-h/workspace/ReactNative/timebook/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JSCWrapper.h \
+  /Users/front-h/workspace/ReactNative/timebook/node_modules/react-native/React/Base/RCTBridge+Private.h \
+  /Users/front-h/workspace/ReactNative/timebook/node_modules/react-native/React/Base/RCTEventDispatcher.h \
+  /Users/front-h/workspace/ReactNative/timebook/node_modules/react-native/React/Modules/RCTJSCSamplingProfiler.h \
+  /Users/front-h/workspace/ReactNative/timebook/node_modules/react-native/React/Base/RCTLog.h \
+  /Users/front-h/workspace/ReactNative/timebook/node_modules/react-native/React/Base/RCTAssert.h \
+  /Users/front-h/workspace/ReactNative/timebook/node_modules/react-native/React/Base/RCTUtils.h \
+  /Users/front-h/workspace/ReactNative/timebook/node_modules/react-native/React/DevSupport/RCTPackagerClient.h \
+  /Users/front-h/workspace/ReactNative/timebook/node_modules/react-native/React/Profiler/RCTProfile.h \
+  /Users/front-h/workspace/ReactNative/timebook/node_modules/react-native/React/DevSupport/RCTPackagerConnection.h \
+  /Users/front-h/workspace/ReactNative/timebook/node_modules/react-native/React/DevSupport/RCTInspectorDevServerHelper.h \
+  /Users/front-h/workspace/ReactNative/timebook/node_modules/react-native/React/Inspector/RCTInspectorPackagerConnection.h

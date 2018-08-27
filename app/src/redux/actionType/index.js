@@ -1,0 +1,14 @@
+export const CODE_LOGIN = 'CODE_LOGIN' //验证码登录
+export const GET_CODE = 'GET_CODE' //获取验证码
+export const USER_UPDATA = 'USER_UPDATA' //更新用户数据
+export const REG_USER = 'REG_USER' //用户注册
+export const USER_INFO = 'USER_INFO' //获取用户信息
+export const GET_BOOK = 'GET_BOOK' //获取书
+export const BOOK_DETAIL = 'BOOK_DETAIL' //书本详情
+export const GET_MENU = 'GET_MENU'//获取书本目录
+export const GET_COMMENT = 'GET_COMMENT'//获取评论
+export const SUBMIT_COMMENT = 'SUBMIT_COMMENT' //提交评论
+export const GET_CATE = 'GET_CATE' //获取分类
+export const GET_KEYWORD = 'GET_KEYWORD' //获取关键字
+export const GET_SEARCH_LIST = 'GET_SEARCH_LIST'//获取搜索列表
+export const MORE_LIST = 'MORE_LIST' //更多列表
