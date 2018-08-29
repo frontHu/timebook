@@ -5,6 +5,7 @@ import * as bookdetailReducer from './../reducer/detail.reducer'
 import * as categrayReducer from './../reducer/cate.reducer'
 import * as searchReducer from './../reducer/search.reducer'
 import * as moreReducer from './../reducer/more.reducer'
+import * as rankReducer from './../reducer/rank.reducer'
 import rootSaga from './../saga/index.saga'
 import AppNavigator from './../../router/router'
 import {
@@ -29,6 +30,7 @@ const rootReducer = combineReducers({
   ...categrayReducer,
   ...searchReducer,
   ...moreReducer,
+  ...rankReducer,
   navReducer
 })
 

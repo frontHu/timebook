@@ -4,7 +4,8 @@ import { homeWatcherSaga } from './home.saga'
 import { detailWatchSaga } from './detail.saga'
 import { catelWatchSaga } from'./cate.saga'
 import { searchWatcherSaga } from './search.saga'
-import { moreWatchSaga } from './more.saga'
+import { moreWatchSaga } from './more.saga' 
+import { rankWatchSaga } from './rank.saga'
 
 export default function* rootSaga() {
   yield all([
@@ -13,6 +14,7 @@ export default function* rootSaga() {
     detailWatchSaga(),
     catelWatchSaga(),
     searchWatcherSaga(),
-    moreWatchSaga()
+    moreWatchSaga(),
+    rankWatchSaga()
   ])
 }

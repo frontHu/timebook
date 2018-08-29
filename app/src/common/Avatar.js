@@ -9,7 +9,7 @@ import pxToDp from './../../untils/pxToDp'
 import { connect } from 'react-redux'
 
 const Avatar = ({avatar, onPress, boxStyle, avatarStyle, userReducer}) => {
-  console.log(userReducer, 'this')
+  // console.log(userReducer, 'this')
   return (
     <TouchableOpacity
       onPress={onPress}

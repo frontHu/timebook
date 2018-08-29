@@ -14,7 +14,7 @@ class Slider extends React.Component {
     this.props.navigation.openDrawer()
   }
   render() {
-    console.log(this.props,'ddddd')
+    // log(this.props,'ddddd')
     return (
       <View>
         <Text>slider</Text>

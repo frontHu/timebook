@@ -30,7 +30,7 @@ class Category extends React.Component {
 
   componentDidMount() {
     this.getCategray()
-    console.log(this.props,'props')
+    // console.log(this.props,'props')
   }
 
   //获取分类

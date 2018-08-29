@@ -47,7 +47,7 @@ class Menu extends React.Component {
   }
 
   render() {
-    console.log(this.props,'ppp')
+    // console.log(this.props,'ppp')
     return (
       <View style={{flex: 1, backgroundColor: '#fff', padding: pxToDp(30)}}>
         <FlatList 

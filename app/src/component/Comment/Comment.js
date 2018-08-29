@@ -16,7 +16,7 @@ class Comment extends React.Component {
   }
 
   render() {
-    console.log(this.props.comment, 'comment') 
+    // console.log(this.props.comment, 'comment') 
     let comment = this.props.comment.length > 2 ? this.props.comment.slice(0, 2) : this.props.comment
     return (
       <View>

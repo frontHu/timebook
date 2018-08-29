@@ -7,7 +7,7 @@ const initState = {
 export function moreReducer(state=initState, action) {
   switch(action.type) {
     case actionTypes.MORE_LIST:
-      console.log(action, 'ssss')
+      // console.log(action, 'ssss')
       return {...state, ...action.payload}
     default:
       return state

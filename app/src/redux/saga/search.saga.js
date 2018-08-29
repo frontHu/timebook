@@ -8,7 +8,7 @@ import * as API from '../../service/search.service'
 
 function* getKeyWordSaga(action) {
   let res = yield call(API.getKeyword)
-  console.log(res, 'res')
+  // console.log(res, 'res')
   if(res.code === '000') {
     yield put({type: actionTypes.GET_KEYWORD, payload: {keyword: res.data}})
   }
@@ -16,7 +16,7 @@ function* getKeyWordSaga(action) {
  //狄仁杰
 function* getsearchBook(action) {
   let res = yield call(API.searchBook, action.payload)
-  console.log(res, 'res')
+  // console.log(res, 'res')
   if(res.code === '000') {
     console.log(res.data.datas, 'datasss')
     yield put({type: actionTypes.GET_SEARCH_LIST, payload: {searchlist: res.data.datas}})
@@ -28,7 +28,7 @@ function* getsearchBook(action) {
 //watcher saga 监听takeEvery这个action 并执行helloSaga
 export const Type = 'SEARCH'
 export function* searchWatcherSaga() {
-  console.log('watcher saga is listening to action!!!!')
+  // console.log('watcher saga is listening to action!!!!')
   yield takeEvery(combineType(Type, actionTypes.GET_KEYWORD), getKeyWordSaga)
   yield takeEvery(combineType(Type, actionTypes.GET_SEARCH_LIST), getsearchBook)
 }

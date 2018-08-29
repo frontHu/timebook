@@ -52,7 +52,7 @@ const styles = StyleSheet.create({
 class Morebox extends React.Component {
  
   render() {
-    console.log(this.props, 'props')
+    // console.log(this.props, 'props')
     return (
       <View style={styles.morebox}>
         <View style={styles.moreitem}>

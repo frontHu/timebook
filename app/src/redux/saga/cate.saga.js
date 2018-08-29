@@ -7,9 +7,9 @@ import * as API from '../../service/cate.service'
 
 
 function* getCateSaga(action) {
-  console.log('gggg')
+  // console.log('gggg')
   let res = yield call(API.getCate)
-  console.log(res, 'getcate')
+  // console.log(res, 'getcate')
   if(res.code === '000') {
     yield put({type: actionTypes.GET_CATE, payload: {list: res.data}})
   }
@@ -19,6 +19,6 @@ function* getCateSaga(action) {
 //watcher saga 监听takeEvery这个action 并执行helloSaga
 export const Type = 'CATE'
 export function* catelWatchSaga() {
-  console.log('watcher saga is listening to action!!!!')
+  // console.log('watcher saga is listening to action!!!!')
   yield takeEvery(combineType(Type, actionTypes.GET_CATE), getCateSaga)
 }

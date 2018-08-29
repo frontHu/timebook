@@ -42,13 +42,13 @@ class More extends React.Component {
 
   //渲染列表
   renderList({item}) {
-    console.log(item, 'item')
+    // console.log(item, 'item')
     return (
       <Morebox {...item}></Morebox>
     )
   }
   render() {
-    console.log(this.props.moreReducer, 'moreReducer')
+    // console.log(this.props.moreReducer, 'moreReducer')
     let list = this.props.moreReducer.list || []
     return (
       <View>

@@ -50,7 +50,7 @@ class SearchPage extends React.Component {
 
   //搜搜
   search(event) {
-    console.log(event.nativeEvent.text, 'event')
+    // console.log(event.nativeEvent.text, 'event')
     this.setState({
       text: event.nativeEvent.text
     })
@@ -77,7 +77,7 @@ class SearchPage extends React.Component {
   render() {
     let keyword = this.props.searchReducer.keyword || []
     let searchlist = this.props.searchReducer.searchlist || []
-    console.log(searchlist, 'searchlist')
+    // console.log(searchlist, 'searchlist')
     return (
       <View style={styles.searchbox}>
         <View style={styles.searchInput}>

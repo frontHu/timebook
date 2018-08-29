@@ -12,3 +12,4 @@ export const GET_CATE = 'GET_CATE' //获取分类
 export const GET_KEYWORD = 'GET_KEYWORD' //获取关键字
 export const GET_SEARCH_LIST = 'GET_SEARCH_LIST'//获取搜索列表
 export const MORE_LIST = 'MORE_LIST' //更多列表
+export const RANK_LIST = 'RANK_LIST' //排行

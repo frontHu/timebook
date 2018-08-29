@@ -8,9 +8,9 @@ import * as API from '../../service/more.service'
 
 function* getMoreSaga(action) {
   let params = action.payload
-  console.log(params, 'params')
+  // console.log(params, 'params')
   let res = yield call(API.getMoreList, params)
-  console.log(res, 'res-params')
+  // console.log(res, 'res-params')
   if(res.code === '000') {
     yield put({type: actionTypes.MORE_LIST, payload: {list: res.data.datas}})
   }

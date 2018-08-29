@@ -65,7 +65,7 @@ class Detail extends React.Component {
     let bookdetailReducer = this.props.bookdetailReducer || {}
 
     let homebookReducer = this.props.homebookReducer || {}
-    console.log(bookdetailReducer, 'bookdetailReducer111')
+    // console.log(bookdetailReducer, 'bookdetailReducer111')
     return(
       <View style={{flex: 1}}>
         <ScrollView
