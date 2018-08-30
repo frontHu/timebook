@@ -52,12 +52,11 @@ class Rank extends React.Component {
     return <Bookitem { ...item } navigation={this.props.navigation}/>
   }
 
-  goMore(type) {
-    this.props.navigation.navigate('More', {type})
+  goMore(type,title) {
+    this.props.navigation.navigate('More', {type, title})
   }
 
   render() {
-    console.log(this.props, 'rankReducer')
     let { list } = this.state
     return (
       <ScrollView>
@@ -70,7 +69,7 @@ class Rank extends React.Component {
                     <Text style={ styles.rankTitle }>{ v }</Text>
                     <TouchableOpacity 
                       style={ styles.rankMore }
-                      onPress={()=>this.goMore(k+1)}
+                      onPress={()=>this.goMore(k+1, v)}
                     >
                       <Text>更多</Text>
                     </TouchableOpacity>

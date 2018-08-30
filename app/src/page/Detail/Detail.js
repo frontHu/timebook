@@ -42,7 +42,7 @@ class Detail extends React.Component {
 
   //获取书本信息
   getbookDetail() {
-    this.actions.bookdetailAction({bookId: this.props.navigation.getParam('bookId')})
+    this.actions.bookdetailAction({bookId: this.state.book_uid})
   }
 
   //输入评论信息
@@ -74,6 +74,7 @@ class Detail extends React.Component {
           <Detailhead 
             {...bookdetailReducer}
             navigation={this.props.navigation}
+            bookuid={this.state.book_uid}
           />
           <Detailbody 
             {...bookdetailReducer}

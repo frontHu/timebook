@@ -21,10 +21,11 @@ import Avatar from './../common/Avatar'
 import SearchPage from './../page/SearchPage/SearchPage'
 import Slider from './../page/Slider/Slider'
 import More from './../page/More/More'
+import Read from './../page/Read/Read'
 
 import { YellowBox } from 'react-native';
 import pxToDp from '../../untils/pxToDp';
-YellowBox.ignoreWarnings(['Warning: isMounted(...) is deprecated', 'Module RCTImageLoader']);
+// YellowBox.ignoreWarnings(['Warning: isMounted(...) is deprecated', 'Module RCTImageLoader']);
 
 //类似底部标签栏，用来区分模块
 const HomeStack = createBottomTabNavigator({
@@ -79,6 +80,9 @@ const RootStack = createStackNavigator({
   },
   'More': {
     screen: More
+  },
+  'Read': {
+    screen: Read
   }
 }, {
     initialRouteName: 'Login',

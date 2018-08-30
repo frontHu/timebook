@@ -51,9 +51,10 @@ class Homebook extends React.Component {
     )
   }
 
-  goMore(type) {
+  goMore(type, title) {
     this.props.navigation.navigate('More', {
-      type
+      type,
+      title
     })
   }
 
@@ -66,7 +67,7 @@ class Homebook extends React.Component {
             <Text style={ styles.hotTitle }>热门推荐</Text>
             <View style={ styles.more }>
               <TouchableOpacity
-                onPress={ () => { this.goMore(1) } }
+                onPress={ () => { this.goMore(1, '热门推荐') } }
               >
                 <Text style={ { color: '#999' } }>更多</Text>
               </TouchableOpacity>
@@ -88,7 +89,7 @@ class Homebook extends React.Component {
             <Text style={ styles.hotTitle }>最新推荐</Text>
             <View style={ styles.more }>
               <TouchableOpacity
-                onPress={ () => { this.goMore(2) } }
+                onPress={ () => { this.goMore(2, '最新推荐') } }
               >
                 <Text style={ { color: '#999' } }>更多</Text>
               </TouchableOpacity>
@@ -119,7 +120,7 @@ class Homebook extends React.Component {
             <Text style={ styles.hotTitle }>免费推荐</Text>
             <View style={ styles.more }>
               <TouchableOpacity
-                onPress={ () => { this.goMore(3) } }
+                onPress={ () => { this.goMore(3, '免费推荐') } }
               >
                 <Text style={ { color: '#999' } }>更多</Text>
               </TouchableOpacity>

@@ -15,7 +15,9 @@ class Detailhead extends React.Component {
   }
 
   btnHanle() {
-    
+    this.props.navigation.navigate('Read', {
+      bookuid: this.props.bookuid
+    })
   }
 
   render() {

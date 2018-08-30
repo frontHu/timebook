@@ -19,8 +19,9 @@ class More extends React.Component {
     this.actions = bindActionCreators(Object.assign({}, moreActions), props.dispatch)
   }
   static navigationOptions = ({navigation}) => {
+    console.log(navigation, 'navigation') 
     return {
-      headerTitle: '更多',
+      headerTitle: navigation.state.params.title,
       headerTintColor: '#fff',
       headerTitleStyle: {
         color: '#fff'
@@ -42,7 +43,6 @@ class More extends React.Component {
 
   //渲染列表
   renderList({item}) {
-    // console.log(item, 'item')
     return (
       <Morebox {...item}></Morebox>
     )
